@@ -24,7 +24,7 @@ For completeness, I have also included the original project and workspace files.
 
 This code would likely be trivially modified to work with modern C++ compilers or other operating systems. I'd imagine that today this code would be primarily useful to study by those who want to print to a LabelWriter II Plus printer, or who want to decode data from a CoStar LabelWriter XL driver, not for anyone who actually wants to convert between the two.
 
-The resampling code (from 203 to 136 dpi) is not likely useful. It's written in a weidly inefficient way because I was experimenting with different techniques--such as ORing pixels to ensure black ones wouldn't be missed--but ended up finding the best quality was had simply by choosing thicker fonts and resampling naïvely.
+The resampling code (from 203 to 136 dpi) is not likely useful. It's written in a wildly inefficient way because I was experimenting with different techniques--such as ORing pixels to ensure black ones wouldn't be missed--but ended up finding the best quality was had simply by choosing thicker fonts and resampling naïvely.
 
 ## Usage
 
